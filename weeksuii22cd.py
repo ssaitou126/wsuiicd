@@ -19,7 +19,7 @@ copypath = '#app > div > div > div > div > div.mt-2 > div > div > div > div.row.
 # chrome driver 使用
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
-driver = webdriver.Chrome('./chromedriver',options=options)
+driver = webdriver.Chrome('https://github.com/ssaitou126/wsuiicd/chromedriver',options=options)
 driver.implicitly_wait(1)
 
 def cpyfunc(adrs):
